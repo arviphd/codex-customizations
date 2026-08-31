@@ -1,0 +1,4 @@
+interface:
+  display_name: "Staged Agent Implementation"
+  short_description: "Implement features in lean, user-gated stages"
+  default_prompt: "Use $staged-agent-implementation to implement this feature in concise user-gated stages, verify the code against the accepted design, validate proportionately, and defer non-critical design concerns."

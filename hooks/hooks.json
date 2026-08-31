@@ -1,0 +1,28 @@
+{
+  "hooks": {
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "command": "\"/usr/bin/env\" python3 \"$HOME/.codex/hooks/auto-review.py\"",
+            "statusMessage": "Codex automatic review",
+            "timeout": 60,
+            "type": "command"
+          }
+        ]
+      }
+    ],
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "command": "\"/usr/bin/env\" python3 \"$HOME/.codex/hooks/auto-review.py\"",
+            "statusMessage": "Codex automatic review",
+            "timeout": 60,
+            "type": "command"
+          }
+        ]
+      }
+    ]
+  }
+}

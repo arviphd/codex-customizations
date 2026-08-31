@@ -1,0 +1,4 @@
+interface:
+  display_name: "Peer Review"
+  short_description: "Codex fixes; Claude, Gemini, or Codex reviews"
+  default_prompt: "Use $peer-review to run a scoped adversarial review with Claude, Gemini, or a Codex subagent as the review-only peer."

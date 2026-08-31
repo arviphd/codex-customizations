@@ -1,0 +1,6 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+*_Review_Handoff*.md
+*_Target_Snapshot*.md
+*.headroom-backup-*
