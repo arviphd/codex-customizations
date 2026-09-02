@@ -1,0 +1,4 @@
+interface:
+  display_name: "Feature Planning"
+  short_description: "Converge feature ideas into focused implementation plans"
+  default_prompt: "Use $feature-planning to assess and refine this feature before creating a focused plan."
